@@ -1,0 +1,92 @@
+body {
+  overflow-x: hidden;
+}
+
+.Home{
+background-image: url(../img/home.jpg);
+background-size: cover;
+background-position: center center;
+height: 100vh;
+}
+.Home .home-layer{
+    background-image: linear-gradient(#d85557ac, #971d21d3);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+
+.home-nav {
+  z-index: 5;
+  top: 0;
+  left: -250px; /* خارج الشاشة */
+  width: 250px;
+  transition: all 0.5s ease; 
+}
+
+ul a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: all 0.3s ;
+}
+
+ul a:hover{
+    color: #971d21d3;
+}
+
+.home-btn{
+    top: 70%;
+    left: 0;
+    transition: all 0.3s ;
+}
+
+
+.singers{
+    padding-block: 70px;
+}
+.signers-content{
+    background-color: #E68285;
+}
+
+.signers-content p{
+    display: none;
+}
+
+
+.JoinUs{
+    background-image: url(../img/joinUs.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+}
+
+.JoinUs .joinUs-layer{
+    background-image: linear-gradient(#d85557ac, #971d21d3);
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+}
+
+.Contact{
+    padding-top: 80px;
+}
+
+.count{
+    border: #fff solid 1px;
+    padding: 40px;
+}
+
+
+.Contact{
+    padding-bottom: 30px;
+}
+
+.social-icons i{
+    transition: all 0.3s;
+}
+.social-icons i:hover{
+    background-color: #dc3545;
+    color: #fff;
+}
